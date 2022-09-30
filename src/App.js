@@ -1,9 +1,10 @@
 import './App.css';
+import JSXExample from './components/JSX';
 
 function App() {
   return (
     <div className="App">
-      Hello world!
+      {JSXExample()}
     </div>
   );
 }
