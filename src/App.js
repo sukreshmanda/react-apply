@@ -1,10 +1,15 @@
 import './App.css';
-import JSXExample from './components/JSX';
+import ClassComponent from './libs/components/ClassComponent';
+import Functional from './libs/components/Functional';
+import JSXExample from './libs/JSX/JSX';
 
 function App() {
+  const name = "sukresh";
   return (
     <div className="App">
-      {JSXExample()}
+      <Functional name = {name}/>
+      <ClassComponent>
+      </ClassComponent>
     </div>
   );
 }
