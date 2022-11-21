@@ -1,10 +1,10 @@
 import './App.css';
-import DummyComponent from './libs/hooks/effect/DummyComponent';
+import Parent from './libs/hooks/context/Parent';
 
 function App() {
   return (
     <div className="App">
-      <DummyComponent/>
+      <Parent/>
     </div>
   );
 }
