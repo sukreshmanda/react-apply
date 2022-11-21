@@ -1,11 +1,10 @@
 import './App.css';
-import LoginForm from './libs/composition/LoginForm';
-
+import DummyComponent from './libs/hooks/effect/DummyComponent';
 
 function App() {
   return (
     <div className="App">
-     <LoginForm/>
+      <DummyComponent/>
     </div>
   );
 }
